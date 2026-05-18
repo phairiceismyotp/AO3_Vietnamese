@@ -2,7 +2,7 @@
 
 AO3 Vietnamese Font Bookmarklet là một Bookmarklet nhỏ giúp đổi font hiển thị trên Archive of Our Own để đọc tiếng Việt dễ hơn.
 
-Mặc định Bookmarklet dùng **Cambria** vì font này có sẵn trên Windows, hỗ trợ tiếng Việt tốt, dễ đọc, và hợp với giao diện đọc truyện.
+Mặc định cả 2 code dùng **Cambria** vì font này có sẵn trên Windows, hỗ trợ tiếng Việt tốt, dễ đọc, và hợp với giao diện đọc truyện.
 
 ## Bookmarklet
 
@@ -99,7 +99,7 @@ Nếu vừa cài font mới, hãy khởi động lại thiết bị.
 
 ## AO3 Site Skin
 
-Nếu muốn đổi font lâu dài mà không cần bấm Bookmarklet mỗi lần, có thể dùng AO3 Site Skin (yêu cầu tài khoản AO3) với file `site-skin.css`:
+Nếu muốn đổi font lâu dài mà không cần nhấn Bookmarklet mỗi lần, có thể dùng AO3 Site Skin (yêu cầu tài khoản AO3) với file `site-skin.css`:
 
 ```css
 * {
@@ -114,7 +114,7 @@ Nếu dùng font khác, thay `Cambria` bằng tên font trình duyệt nhận đ
 Bookmarklet và site-skin dùng `sans-serif` làm font dự phòng:
 
 ```css
-font-family: "Cambria", sans-serif;
+font-family: "Cambria", sans-serif !important;
 ```
 
 Nếu máy không có font đứng trước, trình duyệt sẽ dùng font không chân mặc định, thường dễ đọc hơn cho Tiếng Việt. Nếu bạn thích font có chân hoàn toàn, có thể đổi `sans-serif` thành `serif`.
@@ -133,4 +133,4 @@ Nó không gửi dữ liệu ra ngoài, không đọc tài khoản, không lưu 
 
 AGPL-3.0-only.
 
-Copyright (c) 2026 phairiceismyotp (or3zz, Nguyen Tin)
+Copyright (c) 2026 phairiceismyotp (or3zz - Nguyen Tin)
