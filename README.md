@@ -10,7 +10,7 @@ Mặc định cả 2 code dùng **Cambria** vì font này có sẵn trên Window
 javascript:(function(){document.head.insertAdjacentHTML('beforeend','<style>*{font-family:"Cambria",sans-serif!important}</style>')})()
 ```
 
-## Cách Dùng
+## Cách dùng
 
 1. Nhấn `Ctrl + Shift + B` để hiện thanh Bookmark của trình duyệt.
 2. Nhấp chuột phải lên thanh Bookmark, chọn `Add page...`, rồi đặt tên, ví dụ `AO3 Vietnamese Font`.
@@ -20,7 +20,7 @@ javascript:(function(){document.head.insertAdjacentHTML('beforeend','<style>*{fo
 
 Bookmarklet chỉ áp dụng cho trang đang mở. Khi mở tab mới hoặc reload trang, cần nhấn lại.
 
-## Đổi Font
+## Đổi font
 
 Nếu muốn dùng font khác, thay chữ `Cambria` bằng tên font bạn muốn:
 
@@ -58,7 +58,7 @@ Site Skin:
 }
 ```
 
-## Tìm Đúng Tên Font
+## Tìm đúng tên font
 
 Trên Chrome hoặc Edge, có thể kiểm tra tên font bằng DevTools (Nếu trình duyệt hỏi quyền xem font local thì chọn Allow):
 
@@ -109,7 +109,7 @@ Nếu muốn đổi font lâu dài mà không cần nhấn Bookmarklet mỗi l�
 
 Nếu dùng font khác, thay `Cambria` bằng tên font trình duyệt nhận được.
 
-## Về Font Dự Phòng
+## Về font dự phòng
 
 Bookmarklet và site-skin dùng `sans-serif` làm font dự phòng:
 
@@ -119,7 +119,7 @@ font-family: "Cambria", sans-serif !important;
 
 Nếu máy không có font đứng trước, trình duyệt sẽ dùng font không chân mặc định, thường dễ đọc hơn cho Tiếng Việt. Nếu bạn thích font có chân hoàn toàn, có thể đổi `sans-serif` thành `serif`.
 
-## Quyền Riêng Tư
+## Quyền riêng tư
 
 Bookmarklet này chỉ chèn CSS vào trang AO3 đang mở để đổi font hiển thị.
 Nó không gửi dữ liệu ra ngoài, không đọc tài khoản, không lưu lịch sử đọc và không theo dõi người dùng.
