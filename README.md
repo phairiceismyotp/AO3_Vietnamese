@@ -131,6 +131,6 @@ Nó không gửi dữ liệu ra ngoài, không đọc tài khoản, không lưu 
 
 ## License
 
-AGPL-3.0-only.
+AO3 Vietnamese is licensed under AGPL-3.0-only. See `LICENSE` for the full license text.
 
 Copyright (c) 2026 phairiceismyotp (or3zz - Nguyen Tin)
