@@ -4,6 +4,10 @@ AO3 Vietnamese Font Bookmarklet là một Bookmarklet nhỏ giúp đổi font hi
 
 Mặc định cả 2 code dùng **Cambria** vì font này có sẵn trên Windows, hỗ trợ tiếng Việt tốt, dễ đọc, và hợp với giao diện đọc truyện.
 
+## Video hướng dẫn
+
+[Video hướng dẫn cài đặt và sử dụng Bookmarklet](https://www.youtube.com/watch?v=8qnWvTb5kdQ)
+
 ## Bookmarklet
 
 ```js
