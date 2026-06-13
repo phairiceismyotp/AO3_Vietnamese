@@ -8,6 +8,11 @@ Mặc định cả 2 code dùng **Cambria** vì font này có sẵn trên Window
 
 [Video hướng dẫn cài đặt và sử dụng Bookmarklet](https://www.youtube.com/watch?v=8qnWvTb5kdQ)
 
+Hướng dẫn sử dụng dữ liệu AO3 thật để trình bày:
+
+- Work: [Người Không Bao Giờ Chạm Tới Bình Minh](https://archiveofourown.org/works/69719781)
+- Author: [Duongmotchieu (ineedsleepzzz)](https://archiveofourown.org/users/ineedsleepzzz/pseuds/Duongmotchieu)
+
 ## Bookmarklet
 
 ```js
