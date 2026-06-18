@@ -24,7 +24,7 @@ Tác phẩm và hồ sơ tác giả được nhắc đến thuộc quyền sở 
 ## Bookmarklet
 
 ```js
-javascript:(function(){document.head.insertAdjacentHTML('beforeend','<style>*{font-family:"Cambria",sans-serif!important}</style>')})()
+javascript:(function(){const style=document.createElement('style');style.textContent='* { font-family: "Cambria", sans-serif !important; }';document.head.appendChild(style);})();
 ```
 
 ## Cách dùng
@@ -42,7 +42,7 @@ Bookmarklet chỉ áp dụng cho trang đang mở. Khi mở tab mới hoặc rel
 Nếu muốn dùng font khác, thay chữ `Cambria` bằng tên font bạn muốn:
 
 ```js
-javascript:(function(){document.head.insertAdjacentHTML('beforeend','<style>*{font-family:"Bookerly",sans-serif!important}</style>')})()
+javascript:(function(){const style=document.createElement('style');style.textContent='* { font-family: "Bookerly", sans-serif !important; }';document.head.appendChild(style);})();
 ```
 
 Tên font phải là tên mà trình duyệt nhận trong CSS. Tên hiển thị trong Microsoft Word hoặc ứng dụng khác có thể không giống tên mà AO3/trình duyệt dùng được.
@@ -64,7 +64,7 @@ Khi đó Bookmarklet hoặc Site Skin phải dùng đúng tên trình duyệt nh
 Bookmarklet:
 
 ```js
-javascript:(function(){document.head.insertAdjacentHTML('beforeend','<style>*{font-family:"Source Serif 4 14pt",sans-serif!important}</style>')})()
+javascript:(function(){const style=document.createElement('style');style.textContent='* { font-family: "Source Serif 4 14pt", sans-serif !important; }';document.head.appendChild(style);})();
 ```
 
 Site Skin:
