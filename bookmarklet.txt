@@ -1,1 +1,1 @@
-javascript:(function(){document.head.insertAdjacentHTML('beforeend','<style>*{font-family:"Cambria",sans-serif!important}</style>')})()
+javascript:(function(){const style=document.createElement('style');style.textContent='* { font-family: "Cambria", sans-serif !important; }';document.head.appendChild(style);})();
